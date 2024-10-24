@@ -53,7 +53,7 @@ const About = () => {
       >
         I am a skilled Software Engineer with front-end and back-end expertise.
         On the front-end I have worked with JavaScript and TypeScript, using frameworks like
-        React, Node.js, and Three.js. On the back-end I have extensive experience with Java using and Python, 
+        React, Node.js, and Three.js. On the back-end I have extensive experience with Java and Python, 
         using framworks like SpringBoot and Django. I'm a quick learner and collaborate closely
         with clients and other developers to create effecient, scalable, and 
         user-friendly software to solve real-world problems. 

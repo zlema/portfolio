@@ -26,6 +26,7 @@ import {
     jobit,
     travelAdvisor,
     candyCrush,
+    brainwave,
     tripguide,
     threejs,
     northwesternMutual,
@@ -262,6 +263,27 @@ import {
       ],
       image: candyCrush,
       source_code_link: "https://github.com/zlema/Candy-Crush",
+    },
+    {
+      name: "Brainwave",
+      description:
+        "Modern Bento Box UI design for AI chatbot application",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ai",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind-css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: brainwave,
+      source_code_link: "https://github.com/zlema/Brainwave",
     }
   ];
   

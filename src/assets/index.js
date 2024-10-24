@@ -41,7 +41,9 @@ import bluecross from "./company/bcbs.png";
 import northwesternMutual from "./company/northwesternMutual.png";
 import expedia from "./company/expedia.png";
 import chase from "./company/chase.png";
+import brainwave from "./brainwave.png"
 export {
+  brainwave,
   python,
   java,
   logo,
