@@ -33,7 +33,9 @@ import {
     expedia, 
     chase,
     flstudio,
-    fl
+    fl,
+    iPhone15,
+    hyperlink
   } from "../assets";
   
   export const navLinks = [
@@ -194,32 +196,6 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
   const projects = [
     {
@@ -242,6 +218,7 @@ import {
       ],
       image: travelAdvisor,
       source_code_link: "https://github.com/zlema/Travel_Advisor",
+      website_link: "https://travel-advisor-zlema.netlify.app/",
     },
     {
       name: "Candy Crush",
@@ -263,6 +240,7 @@ import {
       ],
       image: candyCrush,
       source_code_link: "https://github.com/zlema/Candy-Crush",
+      website_link: "https://github.com/zlema/Candy-Crush",
     },
     {
       name: "Brainwave",
@@ -284,7 +262,30 @@ import {
       ],
       image: brainwave,
       source_code_link: "https://github.com/zlema/Brainwave",
-    }
+      website_link: "https://brainwave-ai-zl.netlify.app/",
+    },
+    {
+      name: "Apple iPhone 15 Pro",
+      description:
+        "A comprehensive replica of the Apple iPhone 15 Pro website, delving into modern aesthetci design, visual animation, and 3D modeling. Accompanied with Sentry, for error tracing, click through rates, and many other user metrics useful for business needs",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "GSAP animation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: iPhone15,
+      source_code_link: "https://github.com/zlema/apple_website",
+      website_link: "https://zlema-iphone-website.netlify.app/",
+    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

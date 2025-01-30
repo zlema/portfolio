@@ -41,7 +41,9 @@ import bluecross from "./company/bcbs.png";
 import northwesternMutual from "./company/northwesternMutual.png";
 import expedia from "./company/expedia.png";
 import chase from "./company/chase.png";
-import brainwave from "./brainwave.png"
+import brainwave from "./brainwave.png";
+import iPhone15 from "./iPhone15.png";
+import hyperlink from "./hyperlink.png";
 export {
   brainwave,
   python,
@@ -82,5 +84,7 @@ export {
   expedia,
   chase,
   flstudio,
-  fl
+  fl, 
+  iPhone15,
+  hyperlink,
 };
