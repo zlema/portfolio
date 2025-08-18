@@ -294,7 +294,7 @@ import {
         {
       name: "Artist CMS Platform",
       description:
-        "Built a custom Artist CMS platform that streamlines music release management, integrates with Spotify/Stripe APIs, and centralizes content, analytics, and fan engagement into one easy-to-use dashboard",
+        "A full-stack Artist CMS platform that helps musicians manage releases, track analytics, and engage fans in one place. The system integrates with Spotify and Stripe APIs to automate distribution and monetization, giving independent artists the same operational power as major labels.",
       tags: [
         {
           name: "react",
