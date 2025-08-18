@@ -38,12 +38,13 @@ import tripguide from "./tripguide.png";
 import candyCrush from "./candyCrush.png";
 
 import bluecross from "./company/bcbs.png";
+import freelance from "./company/logo-color.png";
 import northwesternMutual from "./company/northwesternMutual.png";
-import expedia from "./company/expedia.png";
 import chase from "./company/chase.png";
 import brainwave from "./brainwave.png";
 import iPhone15 from "./iPhone15.png";
 import hyperlink from "./hyperlink.png";
+import artistHome from "./homepage.png";
 export {
   brainwave,
   python,
@@ -87,4 +88,6 @@ export {
   fl, 
   iPhone15,
   hyperlink,
+  freelance,
+  artistHome,
 };

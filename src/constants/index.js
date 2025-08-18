@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -20,6 +21,7 @@ import {
     meta,
     starbucks,
     tesla,
+    freelance,
     bluecross,
     shopify,
     carrent,
@@ -35,7 +37,8 @@ import {
     flstudio,
     fl,
     iPhone15,
-    hyperlink
+    hyperlink,
+    artistHome
   } from "../assets";
   
   export const navLinks = [
@@ -169,16 +172,31 @@ import {
       ],
     },
     {
-      title: "Audio Engineer",
+      title: "Produce & Audio Engineer",
       company_name: "BlackStar Entertainment",
       icon: flstudio,
       iconBg: "#383E56",
       date: "February 2023 - Present",
       points: [
-        "Mix and master high quality music unsing FL Studio, Logic, and Ozone",
+        "Mix and master high quality music using FL Studio, Logic, and Ozone",
         "Produce beats and instrumentals using DAW, live instruments, samples, and Omnisphere",
         "Extensive experience editing vocal quality/fluxuation with Newtone and Autotune",
         "Produced songs for many clients and musicians"
+      ],
+    },
+    {
+      title: "Full Stack Software Engineer & Consultant ",
+      company_name: "Zephania Consulting (Freelance)",
+      icon: freelance,
+      iconBg: "#383E56",
+      date: "March 2023 - Present",
+      points: [
+
+        "Delivered custom web and backend applications for clients in mental health, pharma, music, and AI",
+        "Built a full-stack artist CMS platform with Spotify integration, release scheduling, Stripe shop, and analytics dashboard",
+        "Built and deployed containerized applications using Docker, with Kubernetes manifests for staging and production environments, ensuring consistent deployments across Linux-based cloud infrastructure",
+        "Led project scoping, delivery timelines, and communication with non-technical stakeholders",
+        "Resolved complex client-side and backend issues, improving product stability across domains"
       ],
     },
   ];
@@ -272,6 +290,28 @@ import {
       image: iPhone15,
       source_code_link: "https://github.com/zlema/apple_website",
       website_link: "https://zlema-iphone-website.netlify.app/",
+    },
+        {
+      name: "Artist CMS Platform",
+      description:
+        "Built a custom Artist CMS platform that streamlines music release management, integrates with Spotify/Stripe APIs, and centralizes content, analytics, and fan engagement into one easy-to-use dashboard",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind-css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: artistHome,
+      source_code_link: "https://github.com/zlema/Artist-CMS-Platform",
+      website_link: "https://enterthecave.netlify.app/",
     },
   ];
   
