@@ -45,6 +45,7 @@ import brainwave from "./brainwave.png";
 import iPhone15 from "./iPhone15.png";
 import hyperlink from "./hyperlink.png";
 import artistHome from "./homepage.png";
+import stealthAI from "./stealth_ai.png";
 export {
   brainwave,
   python,
@@ -89,4 +90,5 @@ export {
   hyperlink,
   freelance,
   artistHome,
+  stealthAI
 };

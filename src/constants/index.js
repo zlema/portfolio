@@ -37,7 +37,8 @@ import {
     fl,
     iPhone15,
     hyperlink,
-    artistHome
+    artistHome,
+    stealthAI
   } from "../assets";
   
   export const navLinks = [
@@ -311,6 +312,28 @@ import {
       image: artistHome,
       source_code_link: "https://github.com/zlema/Artist-CMS-Platform",
       website_link: "https://enterthecave.netlify.app/",
+    },
+            {
+      name: "Stealth AI Project",
+      description:
+        "An AI audio studio that turns a brief conversation into a personalized, high-quality session—and explains why it fits—using intent detection, structured prompts, and automated quality checks for pace and pauses.",
+      tags: [
+        {
+          name: "Intent-Aware Personalization",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LLM Orchestration & Guardrails",
+          color: "green-text-gradient",
+        },
+        {
+          name: "STT→SSML→TTS Pipeline",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stealthAI,
+      source_code_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
+      website_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
     },
   ];
   
