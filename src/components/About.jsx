@@ -51,17 +51,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a skilled Software Engineer with front-end and back-end expertise.
-        On the front-end I have worked with JavaScript and TypeScript, using frameworks like
-        React, Node.js, and Three.js. On the back-end I have extensive experience with Java and Python, 
-        using framworks like SpringBoot and Django. I'm a quick learner and collaborate closely
-        with clients and other developers to create effecient, scalable, and 
-        user-friendly software to solve real-world problems. 
-        As an Audio Engineer, I have expertise in mixing, mastering, soundscaping, 
-        and production using Logic and FL Studio.
-        As a Film Editor, I have extensive experience editing music videos, with expertise in SFX 
-        using Adobe Premeire Pro and Adobe After Effects.
-        Lets work together to bring your ideas to life!
+        I’m **Zephania Lema** — a builder, creator, and problem-solver at the intersection of **technology, music, and film**.  
+        On the **software side**, I design and develop full-stack applications with React, Next.js, Node.js, and Three.js on the front end, 
+        and Java/Spring Boot or Python/Django on the back end. I love turning complex systems into simple, intuitive experiences.  
+        On the **creative side**, I work as an Audio Engineer (mixing, mastering, production in Logic & FL Studio) 
+        and as a Film Editor (music videos, SFX in Adobe Premiere Pro & After Effects). 
+        I thrive where technology meets art, and I bring that perspective into every project I take on.  
+        👉 Whether it’s code, music, or film — I aim to bring ideas to life with craft and imagination.
 
       </motion.p>
 
