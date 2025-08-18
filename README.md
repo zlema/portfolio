@@ -3,6 +3,8 @@
 An interactive web application that showcases my resume, skills, and selected projects.  
 This site serves as a central hub for my work and is designed to reflect both my technical abilities and eye for design.  
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 🔗 **Live Site:** [Portfolio](https://zephania-lema-portfolio.netlify.app/)  
 
 ---
@@ -39,3 +41,7 @@ git clone https://github.com/your-username/portfolio.git
 cd portfolio
 npm install
 npm run dev
+```
+---
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
