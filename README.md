@@ -3,7 +3,7 @@
 An interactive web application that showcases my resume, skills, and selected projects.  
 This site serves as a central hub for my work and is designed to reflect both my technical abilities and eye for design.  
 
-🔗 **Live Site:** [zephania-lema-portfolio.netlify.app](https://zephania-lema-portfolio.netlify.app/)  
+🔗 **Live Site:** [Portfolio](https://zephania-lema-portfolio.netlify.app/)  
 
 ---
 
@@ -24,7 +24,10 @@ This site serves as a central hub for my work and is designed to reflect both my
 ---
 
 ## 📸 Screenshots
-*(Optional — drop in 1–2 screenshots or GIFs of the site here for quick visual impact.)*  
+
+| HomePage | Introduction | Projects |
+|----------|--------------|----------|
+| ![Homepage](assets/homeScr.png) | ![Intro](assets/introScr.png) | ![Projects](assets/projectsScr.png) | 
 
 ---
 
