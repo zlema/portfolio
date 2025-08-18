@@ -48,17 +48,15 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      variants={fadeIn("", "", 0.1, 1)}
+      className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I’m **Zephania Lema** — a builder, creator, and problem-solver at the intersection of **technology, music, and film**.  
-        On the **software side**, I design and develop full-stack applications with React, Next.js, Node.js, and Three.js on the front end, 
-        and Java/Spring Boot or Python/Django on the back end. I love turning complex systems into simple, intuitive experiences.  
-        On the **creative side**, I work as an Audio Engineer (mixing, mastering, production in Logic & FL Studio) 
-        and as a Film Editor (music videos, SFX in Adobe Premiere Pro & After Effects). 
-        I thrive where technology meets art, and I bring that perspective into every project I take on.  
-        👉 Whether it’s code, music, or film — I aim to bring ideas to life with craft and imagination.
-
+        I’m <span className="font-bold text-accent">Zephania Lema</span> — a builder, creator, and problem-solver at the intersection of <strong> technology, music, and film</strong>.<br /><br />
+        On the <span className="font-bold text-accent">software side</span>, I design and develop full-stack applications with React, Next.js, Node.js, and Three.js on the front end, and Java/Spring Boot or Python/Django on the back end. I love turning complex systems into simple, intuitive experiences.<br /><br />
+        On the <span className="font-bold text-accent">creative side</span>, I work as an Music Producer, Audio Engineer (mixing, mastering, production in Logic & FL Studio)
+        and Film Editor (music videos, SFX in Adobe Premiere Pro & After Effects). <br /><br />
+         I thrive where technology meets art, and I bring that perspective into every project I take on. <br />
+         👉 Whether it’s code, music, or film — I aim to bring ideas to life with craft and imagination.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

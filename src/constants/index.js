@@ -304,7 +304,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind-css",
+          name: "analytics",
           color: "pink-text-gradient",
         },
       ],

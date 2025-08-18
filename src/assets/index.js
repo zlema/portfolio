@@ -82,7 +82,6 @@ export {
   tripguide,
   bluecross,
   northwesternMutual,
-  expedia,
   chase,
   flstudio,
   fl, 

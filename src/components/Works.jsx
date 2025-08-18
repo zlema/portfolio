@@ -82,26 +82,25 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
       <p className= {styles.sectionSubText}>My Work</p>
-      <h2 className={styles.sectionHeadText}>Projects</h2>
+      <h2 className={styles.sectionHeadText}>🚀 Featured Projects</h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='w-full flex flex-col'>
+        <motion.h3
+          variants={fadeIn("", "", 0.05, 1)}
+          className='text-white text-[24px] font-bold'
+        >
+        👉 real-world applications that showcase my engineering skills
+        </motion.h3>
+
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary 
-          text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          The following projects showcase my skills 
-          and experience through 
-          real-world examples of my work. Each 
-          project is breifly described with
-          links to my code repositories or the web applications
-          I have created. These projects demonstrate my ability to
-          solve complex problems, work with different technologies,
-          and manage projects effectively. 
-
+          Below are selected projects that highlight my skills and experience through real-world applications. 
+          Each is briefly described with links to the code and/or live demos. 
+          Together, they demonstrate my ability to solve complex problems, work across diverse technologies, and deliver production-ready solutions.
         </motion.p>
-
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
