@@ -155,25 +155,12 @@ import {
         "Wrote automated tests via TDD to foster effective, reusable, and flexible code",
       ],
     },
-     {
-      title: "Full Stack Software Engineer",
-      company_name: "Expedia",
-      icon: expedia,
-      iconBg: "#E6DEDD",
-      date: "July 2021 - Feb 2022",
-      points: [
-        "Developed frontend/backend software for the Home Page team using Java, Javascript, Node.js, and React",
-        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Directed initiative to repurpose legacy code written in Handlebars JS to React JS",
-        "Tested multiple website content variations to determine optimum user experience and increase customer engagement using Adobe Omniture"
-      ],
-    },
     {
       title: "Full stack Software Engineer",
       company_name: "JP Morgan Chase & Co.",
       icon: chase,
       iconBg: "#383E56",
-      date: "August 2022 - January 2023",
+      date: "August 2022 - January 2024",
       points: [
         "Created a web application using Java & Javascript/React to manage and track all pools and apps within our domain, including the capability to troubleshoot, start, and restage any application",
         "Developed solutions on frontend/backend across different teams/domains using Java, Node.js, Oracle SQL, Javascript, & React",
