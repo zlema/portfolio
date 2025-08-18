@@ -27,7 +27,7 @@ This site serves as a central hub for my work and is designed to reflect both my
 
 | HomePage | Introduction | Projects |
 |----------|--------------|----------|
-| ![Homepage](assets/homeScr.png) | ![Intro](assets/introScr.png) | ![Projects](assets/projectsScr.png) | 
+| ![Homepage](src/assets/homeScr.png) | ![Intro](src/assets/introScr.png) | ![Projects](src/assets/projectsScr.png) | 
 
 ---
 
