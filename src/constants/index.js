@@ -189,7 +189,7 @@ import {
       company_name: "Zephania Consulting (Freelance)",
       icon: freelance,
       iconBg: "#383E56",
-      date: "March 2023 - Present",
+      date: "March 2024 - Present",
       points: [
 
         "Delivered custom web and backend applications for clients in mental health, pharma, music, and AI",
