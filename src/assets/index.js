@@ -30,6 +30,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import flstudio from "./company/flstudio.png";
 import fl from "./company/fl.png";
+import lp from "./company/lp.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -46,6 +47,8 @@ import iPhone15 from "./iPhone15.png";
 import hyperlink from "./hyperlink.png";
 import artistHome from "./homepage.png";
 import stealthAI from "./stealth_ai.png";
+import noCallWebsites from "./noCallWebsites.png";
+import equlizr from "./equlizr.png";
 export {
   brainwave,
   python,
@@ -76,6 +79,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  lp,
   carrent,
   jobit,
   travelAdvisor,
@@ -90,5 +94,7 @@ export {
   hyperlink,
   freelance,
   artistHome,
-  stealthAI
+  stealthAI,
+  noCallWebsites,
+  equlizr
 };

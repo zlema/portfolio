@@ -1,4 +1,3 @@
-import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -9,8 +8,6 @@ import {
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
@@ -18,27 +15,21 @@ import {
     docker,
     java,
     python,
-    meta,
-    starbucks,
-    tesla,
     freelance,
     bluecross,
-    shopify,
-    carrent,
-    jobit,
     travelAdvisor,
     candyCrush,
     brainwave,
-    tripguide,
     threejs,
     northwesternMutual,
     chase,
     flstudio,
-    fl,
+    lp,
     iPhone15,
-    hyperlink,
     artistHome,
-    stealthAI
+    stealthAI,
+    noCallWebsites,
+    equlizr
   } from "../assets";
   
   export const navLinks = [
@@ -199,10 +190,67 @@ import {
         "Resolved complex client-side and backend issues, improving product stability across domains"
       ],
     },
+    {
+      title: "Full Stack Software Engineer",
+      company_name: "LP (LOVEP Marketplace)",
+      icon: lp,
+      iconBg: "#E6DEDD",
+      date: "October 2024 - Present",
+      points: [
+        "Built a two-sided photography and videography marketplace for clients and creative professionals",
+        "Implemented role-based authentication, smart booking flows, photographer availability management, and onboarding workflows",
+        "Integrated Supabase for auth, PostgreSQL data, and storage, with Stripe payment flows for bookings and dynamic pricing",
+        "Developed portfolio management, reviews, ratings, personalization quiz flows, and production QA improvements",
+      ],
+    },
   ];
   
   
   const projects = [
+    {
+      name: "No Call Websites",
+      description:
+        "A fixed-scope website product for busy service business owners that replaces agency discovery calls with a streamlined intake, Stripe checkout, and a polished first website version within 72 hours.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "stripe",
+          color: "green-text-gradient",
+        },
+        {
+          name: "conversion-design",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: noCallWebsites,
+      source_code_link: "https://github.com/zlema/no-call-websites",
+      website_link: "https://www.nocallwebsites.com/",
+    },
+    {
+      name: "Equlizr",
+      description:
+        "An AI-powered resume optimization platform that helps candidates tailor resumes to job descriptions, improve ATS alignment, and turn existing experience into stronger bullet-level application materials.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ai",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ats-optimization",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: equlizr,
+      source_code_link: "https://github.com/zlema/equlizr",
+      website_link: "https://www.equlizr.com/",
+    },
     {
       name: "Travel Advisor",
       description:
