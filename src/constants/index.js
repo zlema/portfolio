@@ -191,7 +191,7 @@ import {
       ],
     },
     {
-      title: "Full Stack Software Engineer",
+      title: "Lead Full Stack Engineer",
       company_name: "LP (LOVEP Marketplace)",
       icon: lp,
       iconBg: "#E6DEDD",
