@@ -252,48 +252,48 @@ import {
       website_link: "https://www.equlizr.com/",
     },
     {
-      name: "Travel Advisor",
+      name: "Artist CMS Platform",
       description:
-        "A comprehensive web applicaiton that allows users to search, book, and see ratings/reviews for restaurants, hotels, and attractions anywhere in the world, providing a convenient and effecient solution for travel needs",
+        "A full-stack Artist CMS platform that helps musicians manage releases, track analytics, and engage fans in one place. The system integrates with Spotify and Stripe APIs to automate distribution and monetization, giving independent artists the same operational power as major labels.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "material-ui",
+          name: "Supabase",
           color: "green-text-gradient",
         },
         {
-          name: "google-maps-api",
+          name: "analytics",
           color: "pink-text-gradient",
         },
       ],
-      image: travelAdvisor,
-      source_code_link: "https://github.com/zlema/Travel_Advisor",
-      website_link: "https://travel-advisor-zlema.netlify.app/",
+      image: artistHome,
+      source_code_link: "https://github.com/zlema/Artist-CMS-Platform",
+      website_link: "https://enterthecave.netlify.app/",
     },
     {
-      name: "Candy Crush",
+      name: "Stealth AI Project",
       description:
-        "Usable and effective web application for the popular game Candy Crush",
+        "An AI audio studio that turns a brief conversation into a personalized, high-quality session—and explains why it fits—using intent detection, structured prompts, and automated quality checks for pace and pauses.",
       tags: [
         {
-          name: "javascript",
+          name: "Intent-Aware Personalization",
           color: "blue-text-gradient",
         },
         {
-          name: "jquery",
+          name: "LLM Orchestration & Guardrails",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "STT→SSML→TTS Pipeline",
           color: "pink-text-gradient",
         },
       ],
-      image: candyCrush,
-      source_code_link: "https://github.com/zlema/Candy-Crush",
-      website_link: "https://github.com/zlema/Candy-Crush",
+      image: stealthAI,
+      source_code_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
+      website_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
     },
     {
       name: "Brainwave",
@@ -339,49 +339,49 @@ import {
       source_code_link: "https://github.com/zlema/apple_website",
       website_link: "https://zlema-iphone-website.netlify.app/",
     },
-        {
-      name: "Artist CMS Platform",
+    {
+      name: "Travel Advisor",
       description:
-        "A full-stack Artist CMS platform that helps musicians manage releases, track analytics, and engage fans in one place. The system integrates with Spotify and Stripe APIs to automate distribution and monetization, giving independent artists the same operational power as major labels.",
+        "A comprehensive web applicaiton that allows users to search, book, and see ratings/reviews for restaurants, hotels, and attractions anywhere in the world, providing a convenient and effecient solution for travel needs",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "Supabase",
+          name: "material-ui",
           color: "green-text-gradient",
         },
         {
-          name: "analytics",
+          name: "google-maps-api",
           color: "pink-text-gradient",
         },
       ],
-      image: artistHome,
-      source_code_link: "https://github.com/zlema/Artist-CMS-Platform",
-      website_link: "https://enterthecave.netlify.app/",
+      image: travelAdvisor,
+      source_code_link: "https://github.com/zlema/Travel_Advisor",
+      website_link: "https://travel-advisor-zlema.netlify.app/",
     },
-            {
-      name: "Stealth AI Project",
+    {
+      name: "Candy Crush",
       description:
-        "An AI audio studio that turns a brief conversation into a personalized, high-quality session—and explains why it fits—using intent detection, structured prompts, and automated quality checks for pace and pauses.",
+        "Usable and effective web application for the popular game Candy Crush",
       tags: [
         {
-          name: "Intent-Aware Personalization",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "LLM Orchestration & Guardrails",
+          name: "jquery",
           color: "green-text-gradient",
         },
         {
-          name: "STT→SSML→TTS Pipeline",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: stealthAI,
-      source_code_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
-      website_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
+      image: candyCrush,
+      source_code_link: "https://github.com/zlema/Candy-Crush",
+      website_link: "https://github.com/zlema/Candy-Crush",
     },
   ];
   
