@@ -23,6 +23,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import threejsWhite from "./tech/brand/threejs-white.svg";
+import supabase from "./tech/brand/supabase.svg";
+import fastapi from "./tech/brand/fastapi.svg";
+import anthropic from "./tech/brand/anthropic.svg";
+import aws from "./tech/brand/aws.svg";
+import azure from "./tech/brand/azure.svg";
+import openai from "./tech/brand/openai.svg";
+import railway from "./tech/brand/railway.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -75,6 +83,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  threejsWhite,
+  supabase,
+  fastapi,
+  anthropic,
+  aws,
+  azure,
+  openai,
+  railway,
   meta,
   shopify,
   starbucks,

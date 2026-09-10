@@ -21,6 +21,14 @@ import {
     candyCrush,
     brainwave,
     threejs,
+    threejsWhite,
+    supabase,
+    fastapi,
+    anthropic,
+    aws,
+    azure,
+    openai,
+    railway,
     northwesternMutual,
     chase,
     flstudio,
@@ -70,54 +78,117 @@ import {
     {
       name: "Java",
       icon: java,
+      category: "Backend",
     },
     {
       name: "Python",
       icon: python,
+      category: "Backend / AI",
     },
     {
       name: "HTML 5",
       icon: html,
+      category: "Frontend",
     },
     {
       name: "CSS 3",
       icon: css,
+      category: "Frontend",
     },
     {
       name: "JavaScript",
       icon: javascript,
+      category: "Frontend / Backend",
     },
     {
       name: "TypeScript",
       icon: typescript,
+      category: "Frontend / Backend",
     },
     {
       name: "React JS",
       icon: reactjs,
+      category: "Frontend",
     },
     {
       name: "Node JS",
       icon: nodejs,
+      category: "Backend",
     },
     {
       name: "MongoDB",
       icon: mongodb,
+      category: "Database",
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: threejsWhite,
+      flatIcon: true,
+      category: "3D UI",
     },
     {
-      name: "git",
+      name: "Supabase",
+      icon: supabase,
+      flatIcon: true,
+      category: "Backend platform",
+      tone: "green",
+    },
+    {
+      name: "AWS",
+      icon: aws,
+      flatIcon: true,
+      category: "Cloud",
+      tone: "orange",
+    },
+    {
+      name: "Azure",
+      icon: azure,
+      flatIcon: true,
+      category: "Cloud",
+      tone: "blue",
+    },
+    {
+      name: "Railway",
+      icon: railway,
+      flatIcon: true,
+      category: "Deployment",
+      tone: "violet",
+    },
+    {
+      name: "FastAPI",
+      icon: fastapi,
+      flatIcon: true,
+      category: "Python services",
+      tone: "green",
+    },
+    {
+      name: "OpenAI",
+      icon: openai,
+      flatIcon: true,
+      category: "AI workflows",
+      tone: "cyan",
+    },
+    {
+      name: "Claude",
+      icon: anthropic,
+      flatIcon: true,
+      category: "AI workflows",
+      tone: "violet",
+    },
+    {
+      name: "Git",
       icon: git,
+      category: "Version control",
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
+      category: "Design",
     },
     {
-      name: "docker",
+      name: "Docker",
       icon: docker,
+      category: "DevOps",
     }
   ];
 
@@ -210,7 +281,13 @@ import {
     {
       name: "No Call Websites",
       description:
-        "A fixed-scope website product for busy service business owners that replaces agency discovery calls with a streamlined intake, Stripe checkout, and a polished first website version within 72 hours.",
+        "An AI-powered business automation platform that removes the slowest parts of small-business website delivery: discovery calls, content collection, scope confusion, checkout, and launch coordination.",
+      role: "Founder / Full Stack AI Engineer",
+      highlights: [
+        "Built an automated intake system that turns business answers into structured project requirements, page strategy, and launch-ready content direction.",
+        "Connected AI-assisted scoping, Stripe checkout, and operational handoff so customers can move from need to paid website package without a sales call.",
+        "Designed workflow automation around real business pain points: missed follow-ups, unclear requirements, content bottlenecks, and slow agency onboarding.",
+      ],
       tags: [
         {
           name: "next.js",
@@ -221,18 +298,29 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "conversion-design",
+          name: "ai-automation",
           color: "pink-text-gradient",
+        },
+        {
+          name: "workflow-systems",
+          color: "orange-text-gradient",
         },
       ],
       image: noCallWebsites,
+      tech: ["Next.js", "TypeScript", "Stripe", "OpenAI", "Automation", "Railway"],
       source_code_link: "https://github.com/zlema/no-call-websites",
       website_link: "https://www.nocallwebsites.com/",
     },
     {
       name: "Equlizr",
       description:
-        "An AI-powered resume optimization platform that helps candidates tailor resumes to job descriptions, improve ATS alignment, and turn existing experience into stronger bullet-level application materials.",
+        "An AI resume optimization platform for tailoring career material to job descriptions while preserving the candidate's real experience.",
+      role: "Full Stack Engineer / AI Product Builder",
+      highlights: [
+        "Designed prompt flows for ATS alignment, bullet rewriting, and job-match feedback.",
+        "Built a focused web app experience around upload, analysis, revision, and export.",
+        "Balanced AI assistance with guardrails against generic or inflated resume content.",
+      ],
       tags: [
         {
           name: "next.js",
@@ -248,13 +336,20 @@ import {
         },
       ],
       image: equlizr,
+      tech: ["Next.js", "TypeScript", "OpenAI", "Claude", "AI"],
       source_code_link: "https://github.com/zlema/equlizr",
       website_link: "https://www.equlizr.com/",
     },
     {
       name: "Artist CMS Platform",
       description:
-        "A full-stack Artist CMS platform that helps musicians manage releases, track analytics, and engage fans in one place. The system integrates with Spotify and Stripe APIs to automate distribution and monetization, giving independent artists the same operational power as major labels.",
+        "A full-stack artist operating system for releases, fan engagement, analytics, and monetization.",
+      role: "Full Stack Engineer",
+      highlights: [
+        "Integrated Spotify and Stripe APIs for artist distribution and commerce workflows.",
+        "Built release scheduling, analytics views, and CMS-style content management.",
+        "Shaped the UX around independent artists managing label-like operations.",
+      ],
       tags: [
         {
           name: "react",
@@ -270,13 +365,20 @@ import {
         },
       ],
       image: artistHome,
+      tech: ["React JS", "Supabase", "Stripe", "Node JS", "Analytics"],
       source_code_link: "https://github.com/zlema/Artist-CMS-Platform",
       website_link: "https://enterthecave.netlify.app/",
     },
     {
       name: "Stealth AI Project",
       description:
-        "An AI audio studio that turns a brief conversation into a personalized, high-quality session—and explains why it fits—using intent detection, structured prompts, and automated quality checks for pace and pauses.",
+        "An AI audio studio that turns a brief conversation into a personalized high-quality session with transparent reasoning.",
+      role: "AI Engineer / Audio Systems Designer",
+      highlights: [
+        "Built an STT to SSML to TTS pipeline for generated audio sessions.",
+        "Used intent detection and structured prompts to personalize the output.",
+        "Added quality checks for pacing, pauses, and user-fit explanations.",
+      ],
       tags: [
         {
           name: "Intent-Aware Personalization",
@@ -292,13 +394,19 @@ import {
         },
       ],
       image: stealthAI,
+      tech: ["Python", "FastAPI", "OpenAI", "Claude", "AI", "Audio"],
       source_code_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
       website_link: "https://github.com/zlema/AI-Stealth-Project/blob/main/README.md",
     },
     {
       name: "Brainwave",
       description:
-        "Modern Bento Box UI design for AI chatbot application",
+        "A polished AI chatbot interface exploring modern bento layouts, responsive composition, and product storytelling.",
+      role: "Frontend Engineer",
+      highlights: [
+        "Implemented a responsive React and Tailwind interface with reusable sections.",
+        "Focused on visual hierarchy, spacing, and product-led AI messaging.",
+      ],
       tags: [
         {
           name: "react",
@@ -314,13 +422,19 @@ import {
         },
       ],
       image: brainwave,
+      tech: ["React JS", "Tailwind", "JavaScript", "AI"],
       source_code_link: "https://github.com/zlema/Brainwave",
       website_link: "https://brainwave-ai-zl.netlify.app/",
     },
     {
       name: "Apple iPhone 15 Pro",
       description:
-        "A comprehensive replica of the Apple iPhone 15 Pro website, delving into modern aesthetci design, visual animation, and 3D modeling. Accompanied with Sentry, for error tracing, click through rates, and many other user metrics useful for business needs",
+        "A high-fidelity Apple-style product page exploring scroll animation, 3D model presentation, and analytics instrumentation.",
+      role: "Frontend / 3D Engineer",
+      highlights: [
+        "Used React, GSAP, and Three.js for product-stage animation.",
+        "Connected Sentry for tracing, click-through insight, and runtime visibility.",
+      ],
       tags: [
         {
           name: "react",
@@ -336,13 +450,19 @@ import {
         },
       ],
       image: iPhone15,
+      tech: ["React JS", "Three JS", "JavaScript", "GSAP"],
       source_code_link: "https://github.com/zlema/apple_website",
       website_link: "https://zlema-iphone-website.netlify.app/",
     },
     {
       name: "Travel Advisor",
       description:
-        "A comprehensive web applicaiton that allows users to search, book, and see ratings/reviews for restaurants, hotels, and attractions anywhere in the world, providing a convenient and effecient solution for travel needs",
+        "A travel discovery app for searching nearby restaurants, hotels, and attractions with maps, ratings, and location-aware filtering.",
+      role: "Frontend Engineer",
+      highlights: [
+        "Integrated Google Maps and travel data APIs into a searchable interface.",
+        "Built filtering and location-based discovery flows with React and Material UI.",
+      ],
       tags: [
         {
           name: "react",
@@ -358,13 +478,19 @@ import {
         },
       ],
       image: travelAdvisor,
+      tech: ["React JS", "JavaScript", "Google Maps", "Material UI"],
       source_code_link: "https://github.com/zlema/Travel_Advisor",
       website_link: "https://travel-advisor-zlema.netlify.app/",
     },
     {
       name: "Candy Crush",
       description:
-        "Usable and effective web application for the popular game Candy Crush",
+        "A browser-based match game implementation focused on interactive game logic and DOM-driven state updates.",
+      role: "JavaScript Engineer",
+      highlights: [
+        "Implemented board state, matching behavior, scoring, and interactive tile movement.",
+        "Used JavaScript, jQuery, and CSS to recreate core gameplay mechanics.",
+      ],
       tags: [
         {
           name: "javascript",
@@ -380,6 +506,7 @@ import {
         },
       ],
       image: candyCrush,
+      tech: ["JavaScript", "CSS 3", "HTML 5", "jQuery"],
       source_code_link: "https://github.com/zlema/Candy-Crush",
       website_link: "https://github.com/zlema/Candy-Crush",
     },
